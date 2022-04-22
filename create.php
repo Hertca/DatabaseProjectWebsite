@@ -32,7 +32,7 @@ Database Project
                 </li>
                 <li>
                     <label for = "RTime">Running Time:</label>
-                    <input type="text" id = "RTime" placeholder="Enter the Running Time"/><br><br>
+                    <input type="time" id = "RTime"/><br><br>
                 </li>
                 <li>
                     <label for = "PCompany">Production Company:</label>
@@ -130,7 +130,7 @@ Database Project
             <!-- <label for = "title">Title:</label>
             <input type="text" id = "title" name='title'/><br><br> -->
             <br><br>
-            <input class = "finalsubmit" type="submit" value="Sumbit your Movie" onclick = "createList()" />
+            <input class = "finalsubmit" type="submit" value="Submit your Movie" onclick = "createList()" />
 
         </form>
     </div>
