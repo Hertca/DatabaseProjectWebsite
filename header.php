@@ -36,6 +36,11 @@ Database Project
             font-family: 'Consolas';
             text-align: center;
         }
+        h4{
+            color: white;
+            font-family: 'Courier';
+            text-align: center;
+        }
         a:link{
             color:white;
             font-family: 'Courier';
@@ -43,6 +48,52 @@ Database Project
         }
         a:visted{
             color: black;
+        }
+        .createform{
+            margin: 0 auto;
+        }
+        .createform * {
+            box-sizing: border-box;
+        }
+        .first li,.second li,.third li{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .first,.second,.third{
+            padding: 0 8px
+            justify-content space-between;
+        }
+        .submit{
+            height: 25px;
+            background-color: #F8E467;
+            border: none;
+            outline: none;
+            color: black;
+            border-radius: 40px;
+            box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+
+        }
+        .finalsubmit{
+            width: 140px;
+            height: 50px;
+            background-color: #F8E467;
+            border: none;
+            outline: none;
+            color: black;
+            border-radius: 40px;
+            box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .headform{
+            color: white;
+            font-family: 'Consolas';
+            text-align: left;
         }
 
 
