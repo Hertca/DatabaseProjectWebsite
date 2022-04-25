@@ -61,27 +61,9 @@ Database Project
                     <br><br>
                 </li>
                 <li>
-                    <p> Genre: </p>
-                        <input type = "checkbox" id = "Action">
-                        <label for = "Genre-Action">Action</label>
-                        <input type = "checkbox" id = "Adventure">
-                        <label for = "Genre-Adventure">Adventure</label>
-                        <input type = "checkbox" id = "Comedy">
-                        <label for = "Genre-Comedy">Comedy</label>
-                        <input type = "checkbox" id = "Musical">
-                        <label for = "Genre-Musical">Musical</label>
-                        <input type = "checkbox" id = "Romance">
-                        <label for = "Genre-Romance">Romance</label>
-                        <input type = "checkbox" id = "ScienceFiction">
-                        <label for = "Genre-ScienceFiction">Science Fiction</label>
-                        <input type = "checkbox" id = "Fantasy">
-                        <label for = "Genre-Fantasy">Fantasy</label>
-                        <input type = "checkbox" id = "LiveAction">
-                        <label for = "Genre-LiveAction">Live Action</label>
-                        <input type = "checkbox" id = "Documentary">
-                        <label for = "Genre-Documentary">Documentary</label>
-
-                    <br><br>
+                    <!-- Genre Table -->
+                    <label for = "GType">Genre Type:</label>
+                    <input type="text" id = "GType" placeholder="Enter the Genre Type"/><br><br>
                 </li>
                 <li>
                     <!-- Ratings Table -->
