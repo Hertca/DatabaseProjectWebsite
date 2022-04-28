@@ -27,19 +27,36 @@ Database Project
             font-family: 'Courier';
         }
         h3{
-            color: white;
+            color: #F8E467;
             font-family: 'Consolas';
             text-align: center;
         }
         h2{
-            color: white;
+            color: #F8E467;
             font-family: 'Consolas';
             text-align: center;
         }
         h4{
+            color: #F8E467;
+            font-family: 'Courier';
+            text-align: center;
+        }
+        p{
             color: white;
             font-family: 'Courier';
             text-align: center;
+        }
+        .listInfo{
+            height: 25px;
+            background-color: #F8E467;
+            border: none;
+            outline: none;
+            color: black;
+            border-radius: 40px;
+            box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
         }
         a:link{
             color:white;

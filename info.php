@@ -22,6 +22,13 @@ Database Project
         Walt Disney Movies
     </h1>
 	<div>
-		<?php $disneySQL->returnAllMovieInfo($title, $date) ?>
+		<?php 
+		$disneySQL->returnAllMovieInfo($title, $date);
+		$disneySQL->returnGenres($title, $date);
+		$disneySQL->returnStatistics($title, $date);
+		$disneySQL->returnRatings($title, $date);
+		$disneySQL->returnCharacters($title, $date);
+		$disneySQL->returnCast($title, $date);
+		?>
 	</div>
 </html>

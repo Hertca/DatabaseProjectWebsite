@@ -20,6 +20,8 @@ Database Project
     <h2> Welcome Imagineer</h2>
     <h3 class = "createlist">
         <a href="create.php"> Add a new movie to list </a>
+        <br />
+        <a href="adminlist.php"> Edit Movie list </a>
     </h3>
 
 
